@@ -1,5 +1,6 @@
 import os
 import hashlib
+
 # Open a file
 path = input("Enter the path of the folder : ")
 filenames = os.listdir(path)
@@ -21,8 +22,6 @@ for file_ in filenames:
       os.remove(str(file_))
       #to delete file
       print("Duplicated File Deleted.")
-      print("")
-      print("")
       print("")
       print("")
     else:
